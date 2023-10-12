@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+    background-color: #2f1893;
+    margin: 0;
+    padding: 0;
+}
+
+
+.signup-form, .signup-form * {
+    background-color: #ffffff;
+}
+
+header{
+    display: flex;
+    width: 972px;
+    height: 40px;
+    margin: 65px 215px 0 213px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-1{
+    width: 106px;
+    height: 32px;
+    margin: 3px 0 5px 2px;
+}
+
+.header-1 .title{
+    width: 111px;
+    height: 19px;
+    margin: 6px -3px 7px -2px;
+    align-items: center;
+}
+
+.header-1 .title p{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.25px;
+    text-align: center;
+}
+
+.header-2 {
+    width: 503px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    height: 100%;   
+}
+
+.header-2 .menu-items{
+    height: 26px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-2 .overview{
+    width: 80px;
+    opacity: 30%;
+    margin-right: 33px;
+}
+
+.header-2 .item-1{
+    width: 53px;
+    margin-right: 30px;
+}
+
+.header-2 .item-2{
+    width: 36px;
+    margin-right: 33px;
+}
+
+.header-2 .item-3{
+    width: 84px;
+    margin-right: 34px;
+}
+
+
+.header-2 .btn {
+    height: 100%;
+    width: 120px;
+    display: flex;
+    text-align: center;
+    background-color: #E93A7D;
+    border-radius: 100px;
+}
+.header-2 .btn a{
+    width: 79px;
+    height: 26px;
+    margin: 7px 20px 7px 21px;
+    text-align: center;
+    line-height: 26px;
+    background-color: transparent;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.main{
+    display: flex;
+}
+
+
+.text{
+    width: 427px;
+    height: 496px;
+    margin-left: 210px;
+    margin-top: 114px;
+}
+
+.text .heading h2{
+    width: 424px;
+    height: 217px;
+    font-weight: 700px;
+    font-size: 58px;
+    line-height: 70px;
+    color: #ffffff;
+}
+.text .content{
+    margin: 24px 61px 45px 3px;
+}
+.text .content h5{
+    width: 363px;
+    height: 160px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+.text .learn-more-btn{
+    height: 50px;
+    width: 157px;
+    display: flex;
+    align-items: center;
+    background-color: #E93A7D;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.text .learn-more-btn p{
+    margin: 12px 30px 12px 31px;
+    width: 96px;
+    height: 26px;
+    background-color: transparent;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+
+
+
+.signup-form{
+    width: 470px;
+    height: 600px;
+    margin-top: 82px;
+    margin-left: 79px;
+}
+
+.signup-form .signup{
+    width: 247px;
+    height: 52px;
+    margin: 48px 109px 0 114px;
+}
+.signup-form .signup h3{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E0E62;
+}
+
+.signup-form .box{
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+    align-items: center;
+    padding-left: 24px;
+    box-sizing: border-box;
+    border: 2px solid #EBEAED;
+}
+
+.signup-form .box::placeholder {
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.signup-form .box-1{
+    margin: 34px 70px 20px 70px;
+}
+
+.signup-form .box-2{
+    margin: 0px 70px 30px 70px;
+}
+ 
+
+.checkbox-container {
+    display: flex;
+    width: 265px;
+    height: 26.4px;
+    margin-left: 70px;
+}
+
+.checkbox-container #terms-checkbox {
+    width: 24px;
+    height: 24px;
+    margin-top: 0;
+    margin-left: 0;
+    background-size: contain; 
+    appearance: none;
+    border-radius: 4px; 
+    position: relative;
+}
+
+.checkbox-container #terms-checkbox:checked {
+    background-color: #007bff;
+}
+
+
+.checkbox-container #terms-checkbox:checked::before {
+    content: "";
+    height: 9.2px; 
+    width: 100%;
+    background: url('images/Check\ Icon.png') no-repeat center center;
+    color: #1E0E62;
+    background-size: contain; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.checkbox-container label {
+    width: 228px;
+    height: 26px;
+    margin-left: 13px;
+    margin-top: 0.4px;
+    align-items: center;
+    font-weight: 400    ;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151439;
+    opacity: 40%;
+}
+
+.signup-form .signin{
+    width: 330px;
+    height: 50px;
+    background-color: #482BE7;
+    margin: 27.6px 70px 18.4px 70px;
+    margin-left: 70px;
+    margin-top: 27.6px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.signup-form .signin p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.signup-form .or{
+    margin-left: 69.5px;
+    margin-right: 72.5px;
+    height: 26px;
+    width: 328px;
+    display: flex;
+}
+
+.signup-form .or .line{
+    margin: 11.1px 12.93px 12.9px 0;
+    width: 141.57px;
+    height: 2px;
+    background-color: #EBEAED;
+}
+
+.signup-form .or .line-2{
+    margin: 11.1px 0 12.9px 15.93px;
+}
+
+.signup-form .or .or-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #151439;
+    opacity: 40%;
+}
+
+.signup-form .login-via{
+    width: 330px;
+    height: 50px;
+    margin: 16.6px 70px 0 70px;
+    background-color: #1DA1F2;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.signup-form .login-via .login-text{
+    width: 138px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    color: #ffffff;
+} 
+
+.signup-form .question{
+    width: 215px;
+    height: 28px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: .1rem sloid grey;
+    display: inline-block;
+}
+
+.signup-form .question{
+    font-weight: 500;
+    size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.signup-form .signin-link{
+    width: 56px;
+    height: 28px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.signup-form .signin-link a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    justify-content: center;
+    color: #25DAC5;
+    text-decoration: none;
+}
